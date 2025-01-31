@@ -1,0 +1,58 @@
+//1.-Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo",
+//  muestra "¡Buen fin de semana!". De lo contrario, muestra "¡Buena semana!".
+let semana = prompt ('¿Que dia de la semana es?')
+if (semana = Lunes){
+    alert ('buen inicio de semana')
+}
+if (semana = martes){
+    alert ('buena semana')
+}
+if (semana = miercoles){
+    alert ('buena semana')
+}
+if (semana = jueves){
+    alert ('buena semana')
+}
+if (semana = Viernes){
+    alert ('trabajando duro o durando en el trabajo')
+}
+if (semana = sabado){
+    alert ('buen fin de semana')
+}
+if (semana = domingo){
+    alert ('buen fin de semana')
+}
+
+//2.-Verifica si un número ingresado por el usuario es positivo o negativo
+// . Muestra una alerta informativa.
+let numero = prompt ('porfavor digita un numero')
+if (numero =>0 ){
+    alert ('el numero es positivo')
+}
+if (numero <0 ){
+    alert ('el numero es negativo')
+}
+
+//3.-Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100,
+//  muestra "¡Felicidades, has ganado!". En caso contrario, muestra "Intentalo nuevamente 
+// para ganar.".
+let puntuacion = 200
+if (puntuacion<99){
+    alert('Intentalo nuevamente')
+}
+if (puntuacion >=100){
+    alert('¡Felicidades has ganado!')
+}
+
+let score = prompt ('esta es la puntuacion que has adquirido en el juego,${puntuacion}')
+
+//4.-Crea un mensaje que informe al usuario sobre el saldo de su cuenta, 
+// utilizando un template string para incluir el valor del saldo.
+
+let saldoDisponible = 5000;
+alert ('tu saldo es de ${saldoDisponible}')
+
+//5.-Pide al usuario que ingrese su nombre mediante un prompt. 
+// Luego, muestra una alerta de bienvenida usando ese nombre.
+ let numbre = prompt ('Ingresa tu nombre')
+ alert('¡Bienvenido, ${nombre}!'); 
