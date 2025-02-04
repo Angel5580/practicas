@@ -1,0 +1,85 @@
+//1.-**Mensaje de bienvenida**
+
+console.log  ("¡Que show!");
+
+//2.-**Saludo personalizado**
+
+saludo = 'que show';
+console.log ('¡hola, ${saludo}!');
+//3.- **Saludo personalizado con alerta**
+
+
+saludo = 'que show';
+alert ('¡hola,${saludo}!');
+
+//4.- **Pregunta y respuesta utilizando prompt**
+verdadOReto = prompt ('Bienvenido al juego de verdad o reto que prefieres verdad o reto ');
+console.log (verdadOReto);
+//5.-**Suma de dos valores**
+suma = prompt ('digita 2 numeros para iniciar la suma');
+let cifra1 = >=0
+let cifra2 = >=0
+let adicion = cifra1 + cifra2 
+
+console.log('la suma de ${cifra1} y ${cifra2} es igual a {adicion}.');
+
+
+//6.-**Resta de dos valores**
+resta = prompt ('digita 2 numeros para iniciar la resta');
+let valor1 = >=0
+let valor2 = >=0
+let sustraccion = valor1+valor2 
+
+console.log('la resta de ${valor1} y ${valor2} es igual a {sustraccion}.');
+
+//7.-**Determinar si es mayor o menor de edad**
+edad = prompt ('¿Que edad tienes?');
+if (numero <=17){
+    alert('te falta poco para la mayoria de edad')
+}
+if (numero >17){
+    alert('tienes edad suficiente para conducir pide tu licencia de manejo')
+}
+
+//8.-**Verificar si un número es positivo, negativo o cero**
+numero = prompt ("ingresa un numero");
+if (numero >0){
+    console.log('el numero es positivo')
+}
+if (numero <0){
+    console.log ('el numero es negativo')
+}
+else{
+console.log ('el numero es 0');
+}
+//9.- **Imprimir números del 1 al 10 con un bucle while**
+numero = 1;
+while (numero <=10){
+    console.log(numero);
+    numero++;
+}
+//10.-**Determinar si una nota es aprobada o reprobada**
+calificacion = prompt ("cual fue tu promedio este semestre");
+if (calificacion >=9){
+    console.log ('pidele a tus papas un juguete te lo mereces')
+}
+if (calificacion >=7){
+    console.log ('puedes sacar mejor calificacion esfuerzate')
+}
+if (calificacion =6){
+    console.log ('panzaste');
+}
+if (calificacion <=5){
+    console.log ('a estudiar en vacaciones');
+}
+
+
+//11.-**Número aleatorio con Math.random**
+numeroAleatorio = Math.random();
+    console.log(numeroAleatorio);
+//12.-**Número entero aleatorio entre 1 y 10 con Math.random**
+numeroIntAleatorio = parseInt(Math.random() * 10) + 1;
+    console.log(numeroIntAleatorio);
+//13.-**Número entero aleatorio entre 1 y 1000 con Math.random**
+numeroIntAleatorio = parseInt(Math.random() * 1000) + 1;
+    console.log(numeroIntAleatorio);
